@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "tailwindcss -i ./src/input.css -o ./output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "live-server src --port=3000",
+    "serve": "live-server --port=3000",
     "start": "npm-run-all --parallel dev serve"
   },
   "keywords": [],
